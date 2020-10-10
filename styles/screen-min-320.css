@@ -1,0 +1,106 @@
+.boxes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+  font-size: 30px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.boxes>#box-a {
+background-color: pink;
+grid-column: span 2;
+grid-row: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.boxes>#box-b {
+background-color:purple;
+grid-column: span 2;
+grid-row: 2;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+.boxes>#box-c {
+background-color: lightskyblue;
+grid-column: span 2;
+grid-row: 3;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.boxes>#box-d {
+background-color: blue;
+grid-column: span 2;
+grid-row: 4;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.boxes>#box-e {
+background-color: lightseagreen;
+grid-column: 1;
+grid-row: 5;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.boxes>#box-f {
+background-color: green;
+grid-column: 2;
+grid-row: 5;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.boxes>#box-g {
+background-color:yellow;
+grid-column: 1 ;
+grid-row: 6;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.boxes>#box-h {
+background-color:orange;
+grid-column: 2;
+grid-row: 6;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.boxes>#box-i {
+background-color:red;
+grid-column: span 2;
+grid-row: 7;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+} 
+

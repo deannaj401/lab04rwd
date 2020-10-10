@@ -1,0 +1,93 @@
+.boxes {
+  display: grid;
+  grid-template-columns: 264px 254px 254px 254px 254px;
+  grid-template-rows: 100px 200px 250px 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1280px;
+}
+
+.boxes>#box-a {
+  grid-column: 1 / 6;
+  background-color: red;
+  border: solid 1px black;
+  font-size: 25px;
+  
+}
+
+.boxes>#box-b {
+  grid-column: 1;
+  grid-row: 2 / 5;
+  background-color: orange;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-c {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  background-color: yellow;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-d {
+  grid-column: 4 /6;
+  grid-row: 2;
+  background-color: green;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-e {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: lightseagreen;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-f {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: blue;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-g {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: lightskyblue;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-h {
+  grid-column: 5;
+  grid-row: 3;
+  background-color: purple;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-i {
+  grid-column: 2 / 6;
+  grid-row: 4;
+  background-color: pink;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
